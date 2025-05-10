@@ -1,12 +1,19 @@
-# React + Vite
+Hava Durumu Uygulaması
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Bu proje, React ve Vite kullanılarak geliştirilmiş bir hava durumu uygulamasıdır. Kullanıcılar, bir şehir adı girerek OpenWeatherMap API'si üzerinden o şehre ait güncel hava durumu bilgilerini (sıcaklık, hissedilen sıcaklık, şehir adı ve ülke) alabilirler. Uygulama, modern bir arayüzle tasarlanmıştır ve kullanıcı dostu bir deneyim sunar. Axios ile API çağrıları yapılırken, react-icons kütüphanesi ile sıcaklık birimi görselleştirilmiştir. Stil dosyası, duyarlı ve estetik bir tasarım sağlamak için özel CSS ile yazılmıştır.
 
-Currently, two official plugins are available:
+Özellikler:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Şehir adına göre gerçek zamanlı hava durumu verileri.
+Sıcaklık (°C), hissedilen sıcaklık ve şehir/ülke bilgisi gösterimi.
+Minimalist ve modern bir tasarım.
+Hata yönetimi (örneğin, geçersiz şehir adı girildiğinde uyarı).
+Vite ile hızlı geliştirme ve yapılandırma.
+Kullanılan Teknolojiler:
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+React: Kullanıcı arayüzü oluşturmak için.
+Vite: Hızlı geliştirme ve yapılandırma aracı.
+Axios: API istekleri için.
+OpenWeatherMap API: Hava durumu verileri için.
+react-icons: Celsius simgesi için.
+CSS: Özel stiller için.
